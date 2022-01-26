@@ -1,0 +1,61 @@
+.mono {
+    font-family: monospace,monospace;
+}
+
+.center {
+    text-align: center;
+}
+
+a::selection { background-color: transparent; }
+br::selection { background-color: transparent; }
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+.chessboard-row {
+    display: flex;
+    justify-content: center;
+}
+
+.chessboard {
+    width: 320px;
+    height: 320px;
+    border: solid 15px;
+}
+.black {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #999;
+    font-size:30px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    font-size:30px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+.vacia {
+    padding-top: 7px;
+    height: 33px;
+}
