@@ -7,9 +7,9 @@ import com.example.plugins.*
 fun main() {
     embeddedServer(Netty, port = System.getenv("PORT")?.toInt() ?: 8080) {
         configureRouting()
-        configureSecurity()
+        //configureSecurity()
         configureMonitoring()
-        configureSerialization()
-        configureSockets()
+        //configureSerialization()
+        //configureSockets()
     }.start(wait = true)
 }
