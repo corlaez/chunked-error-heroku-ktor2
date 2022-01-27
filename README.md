@@ -1,12 +1,14 @@
 The issue only presents itself if you deploy this application to heroku.
 
-Expected behavior
+## Expected behavior
 
-html loads for `/` and `/chess`
+When loading this app (when served through heroku):
 
-Observed behavior
+* html loads for `/` and `/chess`
 
-When loading this app (only when served through heroku)
+## Observed behavior
+
+When loading this app (when served through heroku):
 
  * blank pages for `/` and `/chess`, network tab shows that responses are empty but status is SUCESS 200
  * Sometimes the error ERR_INCOMPLETE_CHUNKED_ENCODING will be seen in the browser devtools
